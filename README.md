@@ -1,5 +1,5 @@
 1. Clone the repo
-2. In folder "LLM-Mistral"
+2. In folder "langchain_mistral"
 3. run following commands:
 	
 	poetry env use 3.11
