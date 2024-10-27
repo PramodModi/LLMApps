@@ -3,7 +3,9 @@
 3. run following commands:
 	
 	poetry env use 3.11
+	
 	poetry run python --version => It will show python version 3.11.4
+	
 	poetry install => It will install all required dependent component in a virtual environment
 
 5. rename env_example file to .env
