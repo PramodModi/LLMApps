@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "graphdb"
+version = "0.1.0"
+description = "This is the basic code to connet, insert and rerieve from Neo4J database."
+authors = ["Pramod Modi <pramodkmodi@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+neo4j = "^5.26.0"
+ipykernel = "^6.29.5"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
