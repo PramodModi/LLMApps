@@ -73,7 +73,7 @@ def run_llm(image_path, query):
      
     {query}
     """
-    tempPath = "./data/temp.jpg"
+    tempPath = "temp.jpg"
     base64_image = encode_image(image_path, tempPath)
     #query = "Let me know the price of each items in Indian rupees."
     prompt = template.format(query=query)
