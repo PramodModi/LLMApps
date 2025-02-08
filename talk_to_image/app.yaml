@@ -1,0 +1,8 @@
+runtime: python311  # Adjust Python version if needed
+
+entrypoint: streamlit run main.py --server.port $PORT --server.address 0.0.0.0
+
+handlers:
+- url: /.*
+  script: auto
+
